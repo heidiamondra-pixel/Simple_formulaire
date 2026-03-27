@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+form{
+    margin-top: 5rem;
+    width: 30vw;
+    height: 50vh;
+    box-shadow: 1px 1px 1px rgba(255, 0, 0, 0.263);
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    background-color: blanchedalmond;
+}
+input[type = text]{
+    border-radius: 5px;
+    padding: 1rem;
+    margin-block: 1rem;
+    border: 1px solid rgba(255, 0, 0, 0.263);
+    width: 100%;
+    background-color: transparent;
+    color: white;
+}
+input[type = text]:focus{
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.getInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo{
+    border-radius: 50%;
+    font-size: 30px;
+    height: 5vh;
+    aspect-ratio: 1/1;
+    align-items: center;
+    padding: 2rem 0.5rem;
+}
+.logo,button{
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    
+    border: 1px solid rgba(255, 0, 0, 0.263);
+    background-color: transparent;
+}
+button{
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 1rem 2rem;
+    color: rgba(255, 0, 0, 0.263);
+}
+button:hover{
+    border: none;
+    background-color:rgba(255, 0, 0, 0.263) ;
+    color: white;
+}
+button:active{
+    border: none;
+    background-color:rgb(137, 221, 137) ;
+    color: white;
+}
+.setle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.setle a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(103, 114, 237);
+}
